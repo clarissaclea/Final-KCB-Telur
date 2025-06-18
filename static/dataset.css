@@ -1,0 +1,32 @@
+form {
+    margin-bottom: 20px;
+    background-color: #e6f4ea;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid #2e7d32;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+ul {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    list-style: circle;
+}

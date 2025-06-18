@@ -1,0 +1,27 @@
+h2 {
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-left: 6px solid #1565c0;
+    border-radius: 8px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #1976d2;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #0d47a1;
+}

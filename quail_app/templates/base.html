@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Sistem Klasifikasi Telur Puyuh{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <header>
+        <h1>Sistem Klasifikasi Telur Burung Puyuh</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'dataset' %}">Dataset</a></li>
+                <li><a href="{% url 'testing' %}">Testing</a></li>
+                <li><a href="{% url 'klasifikasi' %}">Klasifikasi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Sistem Klasifikasi Telur Puyuh</p>
+    </footer>
+</body>
+</html>
+
