@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: quail-kcb-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn quail_project.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: quail_project.settings
+      - key: PYTHON_VERSION
+        value: 3.10
