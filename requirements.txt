@@ -1,6 +1,5 @@
-Django>=3.2,<5
-numpy
-pandas
+Django>=3.2,<4.0
+gunicorn
 scikit-learn
+numpy
 pillow
-joblib
